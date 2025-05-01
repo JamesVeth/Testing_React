@@ -11,8 +11,7 @@ function List() {
                      {id: 5, name:"lemon", calories:45}];
 
 
-    // remember to add returin if you use curly braces, as that denotes a block of code, else single line doesn't require a return as it's implicit for single line code examples
-    // fruits2.sort((a,b)=> a.name.localeCompare(b.name)); // Sort by name alphabetically
+
     fruits2.sort((a,b)=> a.calories - (b.calories)); // Sort by calories
 
 
@@ -26,7 +25,10 @@ function List() {
 
 export default List;
 
+    // remember to add returin if you use curly braces, as that denotes a block of code, else single line doesn't require a return as it's implicit for single line code examples
+    // fruits2.sort((a,b)=> a.name.localeCompare(b.name)); // Sort by name alphabetically
 
+    
     /* 
     
     Notes Curly Braces Cause Conflict
