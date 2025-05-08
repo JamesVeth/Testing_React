@@ -19,7 +19,9 @@ function List() {
     const listItems2 = fruits2.map((fruit)=> { return <li key = {fruit.id}>ID: {fruit.id} Fruit Name: &nbsp; {fruit.name}: Calories: <b>{fruit.calories}</b></li> });
 
 
-    return (<ul>{listItems2}</ul>);
+    return (<div id = "listDiv">
+                <ul>{listItems2}</ul>
+            </div>);
     return (<ul>{listItems1}</ul>);
 }
 
